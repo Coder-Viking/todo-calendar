@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#task-input {
+  margin-bottom: 10px;
+}
+
+#new-task {
+  padding: 5px;
+  font-size: 1em;
+}
+
+#add-button {
+  padding: 5px 10px;
+  font-size: 1em;
+  margin-left: 5px;
+}
+
+#task-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+#task-list li button {
+  margin-left: 10px;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
